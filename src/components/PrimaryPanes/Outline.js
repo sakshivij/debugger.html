@@ -41,7 +41,8 @@ export class Outline extends Component<Props> {
   renderPlaceholder() {
     return (
       <div className="outline-pane-info">
-        {L10N.getStr("outline.noFunctions")}
+        {L10N.getStr("outline.noFileSelected")
+		}
       </div>
     );
   }
